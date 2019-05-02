@@ -1,0 +1,16 @@
+Package: PI
+Type: Package
+Title: Approximate Pi with very high-precesion
+Version: 1.0
+Date: 2019-05-01
+Author: Xu Liu
+Maintainer: Xu Liu <liu.xu@sufe.edu.cn>
+Description: Approximate pi with very high-precesion. 
+License: GPL (>= 2)
+Depends: R (>= 3.2.0)
+Repository: GitHub
+NeedsCompilation: yes
+Encoding: UTF-8
+Packaged: 2019-05-01 17:45:46 UTC; xu2207
+Imports: Rcpp (>= 0.11.15)
+LinkingTo: Rcpp
