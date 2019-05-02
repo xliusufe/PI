@@ -5,6 +5,7 @@
 //  Created by apple on 2018/12/17.
 //  Copyright © 2018年 apple. All rights reserved.
 //
+//[[Rcpp::depends(RcppAlgos)]]
 #include <Rcpp.h>
 #include <assert.h>
 #include <iostream>
