@@ -1,8 +1,11 @@
 Pi <- function(n=100){
   if(n<1) stop("n must be a non negative integer!")
-
-  pi_str = paste0(rep("0",n+4),collapse = "")
-  fit <- pi_approx(n)
-  pi <- paste0("3",fit,collapse = "")
+  progname <- paste("PIexe-",.Platform$OS.type,".exe",sep="")
+  progpath <- system.file("exec",progname,package="PI")
+  
+  if (.Platform$OS.type=="unix") {
+      pi_str = system2(progpath,args=as.character(n),stdout=TRUE)
+  }
+  pi <- paste0("3",pi_str,collapse = "")
   pi
 }

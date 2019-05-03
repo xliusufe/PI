@@ -1,4 +1,2 @@
-useDynLib(PI,.registration=TRUE)
 exportPattern("^[[:alpha:]]+")
-importForm(RcppAlgos)
-importFrom(Rcpp, evalCpp)
+
