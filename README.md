@@ -1,5 +1,5 @@
 # PI
-R package "PI" approximates pi with very high-precesion. It takes It takes only 10 seconds to approximate pi with 100,000 digits.
+R package "PI" approximates pi with very high-precesion. It takes It takes only 0.04 seconds to approximate pi with 1,000,000,000 digits.
 
 # Installation
 
@@ -18,7 +18,7 @@ R package "PI" approximates pi with very high-precesion. It takes It takes only 
 # Example
     library(FactSum)
 
-    pi <- Pi(10)
+    pi <- Pi(1000)
     print(pi,quote=FALSE)
     
 

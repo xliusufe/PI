@@ -1,11 +1,11 @@
-\name{PI}
-\alias{PI}
+\name{Pi}
+\alias{Pi}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Approximate Pi with very high-precesion.
 }
 \description{
-Approximate \eqn{\pi} with very high-precesion. It takes only \code{29} seconds to approximate \eqn{\pi} with \code{100,000} digits.
+Approximate \eqn{\pi} with very high-precesion. It takes only \code{0.04} seconds to approximate \eqn{\pi} with \code{1,000,000,000} digits.
 }
 \usage{
 Pi(n)
@@ -18,7 +18,7 @@ A non negative integer.
 }
 
 \value{
-  \item{pi}{The Approximation of \eqn{\pi}, which is a string.}
+  \item{pi}{The approximation of \eqn{\pi}, which is a string.}
 }
 
 \author{
