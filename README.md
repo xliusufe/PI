@@ -9,11 +9,11 @@ R package "PI" approximates pi with very high-precesion. It takes It takes only 
 
 # Usage
 
-   - [x] [PI-manual.pdf](https://github.com/xliusufe/PI/blob/master/inst/PI-manual.pdf) ---------- Details of the usage of the package.
+   - [x] [PI-manual.pdf](https://github.com/xliusufe/PI/blob/master/inst/PI-manual.pdf) ------------------ Details of the usage of the package.
    
-   - [x] [PI.md](https://github.com/xliusufe/PI/blob/master/inst/PI.md) ---------- The approximation of pi with 10000 digits.
+   - [x] [PI.md](https://github.com/xliusufe/PI/blob/master/inst/PI.md) ----------------------------- The approximation of pi with 10000 digits.
    
-   - [x] [A web-based calculator is available at] [https://xliusufe.shinyapps.io/PIapprox/](https://xliusufe.shinyapps.io/PIapprox/).
+   - [x] [Web-based calculator](https://xliusufe.shinyapps.io/PIapprox) --------- A web-based calculator
    
 # Example
     library(PI)
