@@ -5,7 +5,7 @@ Pi <- function(n=100){
     platform <- "windows"
   }
   else{
-    if(substr(R.version$os,1,6)=="darwin") platform <- "maco"
+    if(substr(R.version$os,1,6)=="darwin") platform <- "mac"
     else if(R.version$os=="linux-gnu") platform <- "linux"
     else stop("\nThis package not available for OS ",R.version$os, "\n It only runs currently on Windows OS, Maco OS, or Linux OS.")
   }
