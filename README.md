@@ -16,7 +16,7 @@ R package "PI" approximates pi with very high-precesion. It takes It takes only 
    - [x] [A web-based calculator is available at] [https://xliusufe.shinyapps.io/PIapprox/](https://xliusufe.shinyapps.io/PIapprox/).
    
 # Example
-    library(FactSum)
+    library(PI)
 
     pi <- Pi(1000)
     print(pi,quote=FALSE)
