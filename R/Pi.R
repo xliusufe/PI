@@ -4,9 +4,7 @@ Pi <- function(n=100){
   if (.Platform$OS.type=="windows") {
     platform <- "windows"
     dynpath1 <- system.file("exec","libgmp-10.dll",package="PI")
-    dynpath2 <- system.file("exec","libgcc_s_dw2-1.dll",package="PI")
     dyn.load(dynpath1)
-    dyn.load(dynpath2)
   }
   else{
     if(substr(R.version$os,1,6)=="darwin"){
