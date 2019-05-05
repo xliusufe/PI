@@ -3,15 +3,15 @@ Pi <- function(n=100){
   
   if (.Platform$OS.type=="windows") {
     platform <- "windows"
-    #dlyname <- "libgmp-10.dll"
-    #dynpath <- system.file("exec",dlyname,package="PI")
-    #dyn.load(dynpath)
+    dynpath1 <- system.file("exec","libgmp-10.dll",package="PI")
+    dynpath2 <- system.file("exec","libgcc_s_dw2-1.dll",package="PI")
+    dyn.load(dynpath1)
+    dyn.load(dynpath2)
   }
   else{
     if(substr(R.version$os,1,6)=="darwin"){
       platform <- "mac"
-      dlyname <- "libgmp.10.dylib"
-      dynpath <- system.file("exec",dlyname,package="PI")
+      dynpath <- system.file("exec","libgmp.10.dylib",package="PI")
       dyn.load(dynpath)
     } 
     else if(R.version$os=="linux-gnu") platform <- "linux"
