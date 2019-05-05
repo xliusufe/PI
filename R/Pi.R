@@ -3,8 +3,8 @@ Pi <- function(n=100){
   
   if (.Platform$OS.type=="windows") {
     platform <- "windows"
-    dlyname <- "libgmp-10.dll"
-    dynpath <- system.file("exec",dlyname,package="PI")
+    #dlyname <- "libgmp-10.dll"
+    #dynpath <- system.file("exec",dlyname,package="PI")
     #dyn.load(dynpath)
   }
   else{
