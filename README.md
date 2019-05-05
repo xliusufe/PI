@@ -15,6 +15,8 @@ R package "PI" approximates pi with very high-precesion. It takes It takes only 
    
    - [x] [Web-based calculator](https://xliusufe.shinyapps.io/PIapprox) --------- A web-based calculator
    
+   - [x] The current version only supports R i386 instead of R x64 for windows OS user. It supports R x64 for Mac OS/Linux OS user.
+   
 # Example
     library(PI)
 
