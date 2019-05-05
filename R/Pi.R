@@ -5,7 +5,7 @@ Pi <- function(n=100){
     platform <- "windows"
     dlyname <- "libgmp-10.dll"
     dynpath <- system.file("exec",dlyname,package="PI")
-    dyn.load(dynpath)
+    #dyn.load(dynpath)
   }
   else{
     if(substr(R.version$os,1,6)=="darwin"){
