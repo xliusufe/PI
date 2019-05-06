@@ -13,7 +13,8 @@ Pi <- function(n=100){
       dyn.load(dynpath)
     } 
     else if(R.version$os=="linux-gnu") platform <- "linux"
-    else stop("\nThis package not available for OS ",R.version$os, "\n It only runs currently on Windows OS, Maco OS, or Linux OS.")
+    else stop("\nThis package not available for OS ",R.version$os, 
+              "\n It only runs currently on Windows OS, Maco OS, or Linux OS.")
   }
   progname <- paste("PIexe-",platform,".exe",sep="")
   progpath <- system.file("exec",progname,package="PI")
