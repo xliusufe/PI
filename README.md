@@ -1,5 +1,5 @@
 # PI
-R package "PI" approximates pi with very high-precesion. It takes It takes only 0.04 seconds to approximate pi with 1,000,000,000 digits.
+R package "PI" approximates pi with very high-precesion. It takes only 0.04 seconds to approximate pi with 1,000,000,000 digits.
 
 # Installation
 
